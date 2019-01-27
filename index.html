@@ -13,11 +13,12 @@
 
     <div id="Dialer" class="tabcontent">
       <h3>Dialer</h3>
+      <p id="displayDial" style="margin-left: 200px;"> </p>
       <table>
-      <tr><td><button>1</button></td><td><button>2</button></td><td><button>3</button></td></tr>
-      <tr><td><button>4</button></td><td><button>5</button></td><td><button>6</button></td></tr>
-      <tr><td><button>7</button></td><td><button>8</button></td><td><button>9</button></td></tr>
-      <tr><td><button>*</button></td><td><button>0</button></td><td><button>#</button></td></tr>
+      <tr><td><input type="button" id="1" onclick="dialButton(this)" value="1"></td><td><input type="button" id="2" onclick="dialButton(this)" value="2"></td><td><input type="button" id="3" onclick="dialButton(this)" value="3"></td></tr>
+      <tr><td><input type="button" id="4" onclick="dialButton(this)" value="4"></td><td><input type="button" id="5" onclick="dialButton(this)" value="5"></td><td><input type="button" id="6" onclick="dialButton(this)" value="6"></td></tr>
+      <tr><td><input type="button" id="7" onclick="dialButton(this)" value="7"></td><td><input type="button" id="8" onclick="dialButton(this)" value="8"></td><td><input type="button" id="9" onclick="dialButton(this)" value="9"></td></tr>
+      <tr><td><input type="button" id="*" onclick="dialButton(this)" value="*"></td><td><input type="button" id="0" onclick="dialButton(this)" value="0"></td><td><input type="button" id="hash" onclick="dialButton(this)" value="#"></td></tr>
       </table>
     </div>
 
@@ -44,7 +45,7 @@
 
     <div id="AddContact" class="tabcontent">
       <h3>Add Contact</h3>
-      <form action="/action_page.php">
+      <form >
         Name:<br>
         <input type="text" placeholder="Allison Rodenbaugh">
         <br>
@@ -54,7 +55,7 @@
         Email Address:<br>
         <input type="text"  placeholder="roden1@yahoo.com">
         <br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Add Contact">
       </form>
     </div>
 
