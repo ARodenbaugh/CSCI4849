@@ -21,3 +21,8 @@ $("#ContactListBtn").click(function() { // when "button_id" is clicked
 	$("#AddContact").hide();	// hide other element
   	$("#ContactList").show();	// hide other element
 });
+
+function dialButton(button) {
+    var x = button.value;
+    document.getElementById("displayDial").innerHTML += x;
+}
