@@ -26,3 +26,12 @@ function dialButton(button) {
     var x = button.value;
     document.getElementById("displayDial").innerHTML += x;
 }
+function clearDial(button) {
+    var x = " ";
+    document.getElementById("displayDial").innerHTML = x;
+}
+
+function dialNumber(button) {
+    var x = "   ... DIALING ...";
+    document.getElementById("displayDial").innerHTML += x;
+}
