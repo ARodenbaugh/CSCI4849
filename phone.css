@@ -1,0 +1,48 @@
+* {box-sizing: border-box}
+
+
+/* Style tab links */
+.tablink {
+  background-color: #db97fc;
+  color: white;
+  float: left;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #e2bcf4;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+body{
+  background-color: #f9f9f9;
+}
+button{
+  padding: 20px;
+  font-size: 20px;
+    margin: 5px;
+}
+button:hover{
+  background-color: #e2bcf4;
+}
+table{
+  margin-left: 200px;
+}
+input{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.listItem{
+  font-size: 14px;
+  padding: 10px;
+
+}
